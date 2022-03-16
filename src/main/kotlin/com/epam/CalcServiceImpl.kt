@@ -6,6 +6,9 @@ class CalcServiceImpl : CalcService {
     }
 
     override fun multiply(a: Int, b: Int): Int {
+        var aaa: Int
+        var bbb: Int = 15
+
         return a * b
     }
 

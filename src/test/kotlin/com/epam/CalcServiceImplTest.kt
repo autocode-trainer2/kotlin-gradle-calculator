@@ -23,13 +23,7 @@ internal class CalcServiceImplTest {
     }
 
     @Test
-    fun subtractMini() {
-        Assertions.assertEquals(-1, calcServiceImpl.subtract(2, 3))
-    }
-
-    @Test
     fun divideMini() {
-        Assertions.assertEquals(1, calcServiceImpl.divide(4, 4))
         Assertions.assertEquals(0, calcServiceImpl.divide(4, 0))
     }
 }
